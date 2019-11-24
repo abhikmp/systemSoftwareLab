@@ -19,13 +19,13 @@ int main()
     	printf("\nEnter number of resources: ");
     	scanf("%d", &resources);
  
-    	printf("\nEnter Claim Vector:");
+    	printf("\nEnter Claim Vector(Available Matirx):");
     	for (i = 0; i < resources; i++) 
 	{ 
 	        scanf("%d", &maxres[i]);
     	}
  
-   	printf("\nEnter Allocated Resource Table:\n");
+   	printf("\nEnter Allocated Resource Table(Allocation Matrix):\n");
     	for (i = 0; i < processes; i++) 
 	{
 	        for(j = 0; j < resources; j++) 
@@ -34,7 +34,7 @@ int main()
         	}
     	}
  
-    	printf("\nEnter Maximum Claim Table:\n");
+    	printf("\nEnter Maximum Claim Table(Max. Matrix for each table):\n");
     	for (i = 0; i < processes; i++) 
 	{
         	for(j = 0; j < resources; j++) 
