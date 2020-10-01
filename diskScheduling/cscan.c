@@ -11,10 +11,10 @@ int main(){
   printf("%s\t", "Input no of disk locations");
   scanf("%d", &q_size);
 
-  printf("%s\t", "Enter initial head position");
+  printf("%s\t", "Enter initial head position: ");
   scanf("%d", &head);
 
-  printf("%s\n","Enter disk positions to be read");
+  printf("%s\n","Enter disk positions to be read: ");
   for(i=0; i<q_size; i++) {
 
     scanf("%d", &temp);
